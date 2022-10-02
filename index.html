@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Insan Basket Indonesia</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+    </head>
+    <body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu"></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Insan Basket Indonesia</h1><br>
+    <a href="" class="hero-btn">Visit us to know more</a>
+</div>
+
+</section>
+
+<section class="about">
+    <h1>About Us</h1>
+    <p>is a Basketball Community that was formed with the aim of building friendships with all basketball people <br>
+        throughout Indonesia and becoming a basketball community with high achievements and commendable character.</p>
+        <div class="row">
+            <div class="about-col">
+                <br>
+                <h3>Management Structure</h3>
+                <p>Founder & Chairman: Bruno Josef Widya Permana<br>
+        Vice Chairman: Gunawan Arifin<br>
+        Daily Leader: Morris Putrayasa<br></p><br>
+            </div>
+            <div class="about-col">
+                <h3>Training Schedule</h3>
+                <p>1. General: Every Sunday, 20.00-22.00 at GOR Basketball Bekasi<br>
+                2. Youth Academy (KU 18): Every Saturday, 15.30-17.30 at Jatikramat Indah Estate Basketball Court, Bekasi<br>
+                3. Malahayati Academy (Woman and KU 14): Every Sunday 12.00-14.00 at Gelanggang Remaja Kecamatan Matraman, Jakarta Timur</p>
+            </div>
+        </div>
+</section>
+<section class="activities">
+    <h1>Our Activities</h1>
+    <p>This is our activities</p>
+
+    <div class="row">
+        <div class="activities-col">
+        <img src="images/1.jpg">
+        <h3>Our Team Photo</h3>
+        <p>At Gelanggang Remaja Kecamatan Matraman, Jakarta Timur</p>
+        </div>
+
+        <div class="activities-col">
+        <img src="images/2.jpg">
+        <h3>Our Team Photo</h3>
+        <p>At Gelanggang Remaja Kecamatan Matraman, Jakarta Timur</p>
+    </div>
+
+    <div class="activities-col">
+        <img src="images/3.jpg">
+        <h3>Our Team Photo</h3>
+        <p>At Gelanggang Remaja Kecamatan Matraman, Jakarta Timur</p>
+    </div>
+</section>
+<section class="footer">
+    <h4>Contact Us</h4>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+</section>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    </body>
+</html>
